@@ -6,6 +6,19 @@ maintain this version for use in our public and client projects.
 The instructions below show basic usage, and assume that you're already familiar
 with [Eloquent and creating models, etc](http://laravel.com/docs/4.2/eloquent).
 
+## Installation
+
+This package is available to install via [Composer](https://getcomposer.org/). Just add
+it to your `composer.json` file as a requirement:
+
+```json
+{
+	"require": {
+		"bitolaco/silex-eloquent": "*"
+	}
+}
+```
+
 
 ## Examples
 
