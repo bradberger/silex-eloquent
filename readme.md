@@ -1,6 +1,6 @@
 This package provides a Laravel Eloquent service provider for Silex applications.
 It was pulled from [this gist](https://gist.github.com/ziadoz/7326872) created by
-[Jamie York](https://github.com/ziadoz). It4 is his creation, not ours. We just 
+[Jamie York](https://github.com/ziadoz). It is his creation, not ours. We just 
 maintain this version for use in our public and client projects.
 
 The instructions below show basic usage, and assume that you're already familiar
