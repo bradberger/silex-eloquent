@@ -1,0 +1,22 @@
+{
+    "name": "bitolaco/silex-eloquent",
+    "description": "Laravel Eloquent service provider for Silex applications",
+    "keywords": ["silex", "eloquent", "orm", "provider"],
+    "license": "MPL",
+    "authors": [
+        {
+            "name": "Brad Berger",
+            "email": "brad@bitola.co"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0",
+        "silex/silex": "~1.2",
+        "illuminate/database": "*"
+    },
+    "autoload": {
+        "psr-0": {
+            "": "src/"
+        }
+    }
+}
