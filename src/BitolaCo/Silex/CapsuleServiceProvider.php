@@ -12,7 +12,7 @@ use Illuminate\Container\Container as IlluminateContainer;
 use Illuminate\Cache\CacheManager;
 
 
-class EloquentServiceProvider implements ServiceProviderInterface, BootableProviderInterface
+class CapsuleServiceProvider implements ServiceProviderInterface, BootableProviderInterface
 {
     /**
      * Register the Capsule service.

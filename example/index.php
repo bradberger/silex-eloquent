@@ -3,7 +3,7 @@
 require __DIR__ . '/../vendor/autoload.php';
 
 use Silex\Application;
-use BitolaCo\Silex\EloquentServiceProvider;
+use BitolaCo\Silex\CapsuleServiceProvider;
 use Illuminate\Database\Eloquent\Model;
 
 class Test extends Model
@@ -21,7 +21,7 @@ class Test extends Model
 $app = new Silex\Application;
 $app['debug'] = true;
 $app->register(
-    new EloquentServiceProvider(),
+    new CapsuleServiceProvider(),
     array(
         'capsule.connection' => array(
             'driver' => 'mysql',
