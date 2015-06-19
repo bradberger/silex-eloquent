@@ -1,23 +1,34 @@
 {
-    "name": "bitolaco/silex-eloquent",
-    "description": "Laravel Eloquent service provider for Silex applications",
-    "keywords": ["silex", "eloquent", "orm", "provider"],
-    "license": "MPL",
-    "authors": [
-        {
-            "name": "Brad Berger",
-            "email": "brad@bitola.co"
-        }
-    ],
-    "require": {
-        "php": ">=5.4.0",
-        "silex/silex": "~1.2",
-        "illuminate/database": "~4.2",
-        "illuminate/events": "~4.2"
-    },
-    "autoload": {
-        "psr-0": {
-            "": "src/"
-        }
+  "name": "bitolaco/silex-eloquent",
+  "description": "Laravel Eloquent service provider for Silex applications",
+  "keywords": [
+    "silex",
+    "eloquent",
+    "orm",
+    "provider"
+  ],
+  "license": "MPL",
+  "authors": [
+    {
+      "name": "Brad Berger",
+      "email": "brad@bitola.co"
     }
+  ],
+  "require": {
+    "php": ">=5.5.9",
+    "silex/silex": "~2.0@dev",
+    "illuminate/database": "~5.0",
+    "illuminate/events": "~5.0",
+    "illuminate/cache": "~5.0"
+  },
+  "suggest": {
+    "illuminate/database": "Required to use the database cache driver (5.2.*).",
+    "illuminate/filesystem": "Required to use the file cache driver (5.2.*).",
+    "illuminate/redis": "Required to use the redis cache driver (5.2.*)."
+  },
+  "autoload": {
+    "psr-0": {
+      "": "src/"
+    }
+  }
 }
