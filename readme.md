@@ -6,6 +6,18 @@ maintain this version for use in our public and client projects.
 The instructions below show basic usage, and assume that you're already familiar
 with [Eloquent and creating models, etc](http://laravel.com/docs/4.2/eloquent).
 
+## Silex 2 and the future
+
+There's the basic code for updating this to Silex 2.x and Illuminate 5.1, but since 
+Lumen has arrived on the scene, it seems that it would be a bit [redundant](https://github.com/BitolaCo/silex-eloquent/issues/1) to work on
+maintaining the project in the future for Silex 2. If you need Eloquent and a 
+microframework for new proejcts, Lumen would seem to be the way to go. 
+
+That being said, if someone is interested in helping test the code already there in the
+[silex-v2 branch](https://github.com/BitolaCo/silex-eloquent/tree/silex-v2), let us know!
+
+Unless that happens, we plan to maintain this until the end of life for Silex 1.X only.
+
 ## Installation
 
 This package is available to install via [Composer](https://getcomposer.org/). Just add
