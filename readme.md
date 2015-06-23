@@ -1,3 +1,8 @@
+[![Latest Stable Version](https://poser.pugx.org/bitolaco/silex-eloquent/v/stable)](https://packagist.org/packages/bitolaco/silex-eloquent) 
+[![Total Downloads](https://poser.pugx.org/bitolaco/silex-eloquent/downloads)](https://packagist.org/packages/bitolaco/silex-eloquent) 
+[![Latest Unstable Version](https://poser.pugx.org/bitolaco/silex-eloquent/v/unstable)](https://packagist.org/packages/bitolaco/silex-eloquent) 
+[![License](https://poser.pugx.org/bitolaco/silex-eloquent/license)](https://packagist.org/packages/bitolaco/silex-eloquent)
+
 This package provides a Laravel Eloquent service provider for Silex applications.
 It was pulled from [this gist](https://gist.github.com/ziadoz/7326872) created by
 [Jamie York](https://github.com/ziadoz). It is his creation, not ours. We just 
